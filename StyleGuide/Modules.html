@@ -5,8 +5,7 @@
     <meta charset="utf-8" />
     <link rel="stylesheet" type="text/css" href="/StyleGuide/Content/BootStrap/bootstrap.min.css" />
     <link rel="stylesheet" type="text/css" href="/StyleGuide/Content/dp-css-library-alpha-master/theme.css">
-    <link rel="stylesheet" type="text/css" href="style/FontAwesome/fontawesome.min.css" />
-    <script defer src="fontawesome-free-5.0.6/svg-with-js/js/fontawesome-all.js"></script>
+    <link rel="stylesheet" type="text/css" href="/StyleGuide/Content/font-awesome-4.7.0/css/font-awesome.min.css" />
 
     <title></title>
 </head>
@@ -61,11 +60,11 @@
                     <div class="services-share">
                         <div class="col-md-4 text-right">
                             <p class="share addthis_toolbox">
-                                <span>Share this page:</span> <a title="Share on Facebook." class="addthis_button_facebook at300b" href="#">
-                                    <i class="fab fa-facebook" aria-hidden="true"></i></a> 
-                                <a title="Share on Twitter." class="addthis_button_twitter at300b" href="#"><i class="fab fa-twitter" aria-hidden="true"></i></a>
-                                <a title="Share on Linkedin." class="addthis_button_linkedin at300b" href="#" target="_blank"><i class="fab fa-linkedin" aria-hidden="true"></i></a>
-                                <a title="Share on WhatsApp." class="addthis_button_whatsapp at300b" href="#" target="_blank"><i class="fab fa-whatsapp" aria-hidden="true"></i></a>
+                                <span>Share this page:</span> 
+                                <a title="Share on Facebook." class="addthis_button_facebook at300b" href=""><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+                                <a title="Share on Twitter." class="addthis_button_twitter at300b" href="#" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                                <a title="Share on Linkedin." class="addthis_button_linkedin at300b" href="#" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+                                <a title="Share on WhatsApp." class="addthis_button_whatsapp at300b" href="#" target="_blank"><i class="fa fa-whatsapp" aria-hidden="true"></i></a>
                                 <a title="Share." class="addthis_button_more at300b" href="#" target="_blank"><i class="fa fa-share-alt" aria-hidden="true"></i></a>
                             </p>
                         </div>
@@ -281,7 +280,7 @@
                                         <dt>Find us on</dt>
                                         <dd><a target="_blank" href="https://www.linkedin.com/company/health-and-safety-executive?trk=biz-companies-cym"><i class="fa fa-linkedin" aria-hidden="true"></i></a></dd>
                                         <dd><a target="_blank" href="https://twitter.com/H_S_E"><i class="fa fa-twitter" aria-hidden="true"></i></a></dd>
-                                        <dd><a target="_blank" href="https://www.facebook.com/hsegovuk/"><i class="fa fa-facebook" aria-hidden="true"></i></a></dd>
+                                        <dd><a target="_blank" href="https://www.facebook.com/hsegovuk/"><i class="fa fa-facebook" aria-hidden="true"></i></a></dd> 
                                     </dl>
                                 </div>
                             </div>
@@ -297,18 +296,26 @@
 
                 <fieldset>
                     <h5>Code</h5>
+                    <code>&lt;!--FOOTER example start--&gt; </code><br />
                     <code>&lt;div class=&quot;footer-bottom hidden-print&quot;&gt; </code><br />
                     <code>&lt;div class=&quot;container&quot;&gt; </code><br />
-                    <code>&lt;div class=&quot;row&quot;&gt;</code><br />
-                    <code>&lt;div class=&quot;col-xs-1 col-sm-6&quot;&gt;</code><br />
-                    <!--<code>&lt;p class=&quot;logo&quot;&gt;&lt;img onerror=&quot;this.src='/img/hse.png';this.onerror=null;&quot; alt=&quot;Health and Safety Executive.&quot; src=&quot;content/img/HealthSmall.png&quot;&gt;</code><br />-->
-                    <code><!--&lt;span&gt;Health and Safety Executive&lt;/span&gt;&lt;/p&gt;--> &lt;/div&gt; &lt;div class=&quot;col-xs-11 col-sm-6 text-right&quot;&gt;</code><br />
-                    <code>&lt;p&gt;&lt;a href=&quot;/bssd/bssd-contact-us/&quot;&gt;Contact us&lt;/a&gt;&lt;/p&gt; </code><br />
-                    <code>&lt;dl&gt; &lt;dt&gt;Find us on&lt;/dt&gt; </code><br />
-                    <code>&lt;dd&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://www.linkedin.com/company/health-and-safety-executive?trk=biz-companies-cym&quot;&gt;&lt;i class=&quot;fa fa-linkedin&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/dd&gt;</code><br />
-                    <code>&lt;dd&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://twitter.com/H_S_E&quot;&gt;&lt;i class=&quot;fa fa-twitter&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/dd&gt;</code><br />
-                    <code>&lt;dd&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://www.facebook.com/hsegovuk/&quot;&gt;&lt;i class=&quot;fa fa-facebook&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/dd&gt;</code><br />
-                    <code>&lt;/dl&gt; &lt;/div&gt; &lt;/div&gt; &lt;/div&gt; &lt;/div&gt;</code><br />
+                    <code>&lt;div class=&quot;row&quot;&gt; </code><br />
+                    <code>&lt;div class=&quot;col-xs-1 col-sm-6&quot;&gt; </code><br />
+                    <code>&lt;/div&gt; &lt;div class=&quot;col-xs-11 col-sm-6 text-right&quot;&gt; </code><br />
+                    <code>&lt;p&gt; </code><br />
+                    <code>&lt;a href=&quot;/contact-us-general/&quot;&gt;Contact us&lt;/a&gt;&lt;/p&gt; </code><br />
+                    <code>&lt;dl&gt; </code><br />
+                    <code>&lt;dt&gt;Find us on&lt;/dt&gt; </code><br />
+                    <code>&lt;dd&gt; </code><br />
+                    <code>&lt;a target=&quot;_blank&quot; href=&quot;https://www.linkedin.com/company/health-and-safety-executive?trk=biz-companies-cym&quot;&gt;&lt;i class=&quot;fa fa-linkedin&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/dd&gt; </code><br />
+                    <code>&lt;dd&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://twitter.com/H_S_E&quot;&gt;&lt;i class=&quot;fa fa-twitter&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/dd&gt; </code><br />
+                    <code>&lt;dd&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://www.facebook.com/hsegovuk/&quot;&gt;&lt;i class=&quot;fa fa-facebook&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/dd&gt; </code><br />
+                    <code>&lt;/dl&gt; </code><br />
+                    <code>&lt;/div&gt; </code><br />
+                    <code>&lt;/div&gt; </code><br />
+                    <code>&lt;/div&gt; </code><br />
+                    <code>&lt;/div&gt; </code><br />
+                    <code>&lt;!--FOOTER example END--&gt; </code><br />
                 </fieldset>
 
             </div>
@@ -461,21 +468,22 @@
 
     <br /><br /><br />
 
+
     <!--FOOTER-->
     <div class="footer-bottom hidden-print">
 
         <div class="container">
             <div class="row">
                 <div class="col-xs-1 col-sm-6">
-                    
+
                 </div>
                 <div class="col-xs-11 col-sm-6 text-right">
-                    <p><a href="">Contact us</a></p>
+                    <p><a href="/contact-us-general/">Contact us</a></p>
                     <dl>
                         <dt>Find us on</dt>
                         <dd><a target="_blank" href="https://www.linkedin.com/company/health-and-safety-executive?trk=biz-companies-cym"><i class="fa fa-linkedin" aria-hidden="true"></i></a></dd>
                         <dd><a target="_blank" href="https://twitter.com/H_S_E"><i class="fa fa-twitter" aria-hidden="true"></i></a></dd>
-                        <dd><a target="_blank" href="https://www.facebook.com/hsegovuk/"><i class="fa fa-facebook" aria-hidden="true"></i></a></dd>
+                        <dd><a target="_blank" href="https://www.facebook.com/hsegovuk/"><i class="fa fa-facebook" aria-hidden="true"></i></a></dd> 
                     </dl>
                 </div>
             </div>
