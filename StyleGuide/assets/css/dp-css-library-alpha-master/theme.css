@@ -1129,7 +1129,7 @@ a {
     height: 24px;
     margin: -12px 0 0 0;
     vertical-align: middle;
-    background: url('../../Content/img/radio.png') 0 0 no-repeat;
+    background: url('../../../Content/img/radio.png') 0 0 no-repeat;
     background-size: 24px 48px;
     cursor: pointer;
     position: absolute;
@@ -1383,7 +1383,7 @@ a {
         }
 
 .btn-apply {
-    background: #0971b2 url("../../Content/img/btn-arrow-next.png") no-repeat 93% 50%;
+    background: #0971b2 url("../../../Content/img/btn-arrow-next.png") no-repeat 93% 50%;
     background-size: auto 20px !important;
     min-width: 180px;
     text-align: left;
@@ -1417,8 +1417,8 @@ a {
 }
 
     .btn-group .btn.previous-btn {
-        background-image: url("../../Content/img/btn-arrow-previous-white.png");
-        background: #FFF url("../../Content/img/btn-arrow-previous.png") no-repeat 5% 50%;
+        background-image: url("../../../Content/img/btn-arrow-previous-white.png");
+        background: #FFF url("../../../Content/img/btn-arrow-previous.png") no-repeat 5% 50%;
         padding: 8px 25px 8px 55px;
         border: 1px solid #CCC;
         border-left: 4px solid #CCC;
@@ -1432,12 +1432,12 @@ a {
             background-color: #666;
             border-color: #666;
             color: #FFF;
-            background-image: url("../../Content/img/btn-arrow-previous-white.png");
+            background-image: url("../../../Content/img/btn-arrow-previous-white.png");
         }
 
     .btn-group .btn.submit-btn,
     .btn.apply-btn {
-        background: #0971b2 url("../../Content/img/btn-arrow-next.png") no-repeat 95% 50%;
+        background: #0971b2 url("../../../Content/img/btn-arrow-next.png") no-repeat 95% 50%;
         padding: 8px 55px 8px 25px;
         border-color: #0971b2;
         color: #FFF;
@@ -1445,7 +1445,7 @@ a {
 
     .btn-group-alt .btn.submit-btn,
     .btn.apply-btn {
-        background: #FFF url("../../Content/img/btn-arrow-next.png") no-repeat 95% 50%;
+        background: #FFF url("../../../Content/img/btn-arrow-next.png") no-repeat 95% 50%;
         padding: 8px 55px 8px 25px;
         border-color: #0971b2;
         color: #FFF;
@@ -1458,8 +1458,8 @@ a {
 }
 
 .btn-group .btn.exit-btn {
-    background-image: url("../../Content/img/btn-arrow-exit-white.png");
-    background: #FFF url("../../Content/img/btn-arrow-exit.png") no-repeat 95% 50%  !important;
+    background-image: url("../../../Content/img/btn-arrow-exit-white.png");
+    background: #FFF url("../../../Content/img/btn-arrow-exit.png") no-repeat 95% 50%    !important;
     padding: 8px 55px 8px 25px;
     border: 1px solid #CCC;
     border-right: 4px solid #CCC;
@@ -1471,7 +1471,7 @@ a {
 }
 
     .btn-group .btn.exit-btn:hover {
-        background-image: url("../../Content/img/btn-arrow-exit-white.png") !important;
+        background-image: url("../../../Content/img/btn-arrow-exit-white.png") !important;
         background-color: #666 !important;
         border-color: #666;
         color: #FFF !important;
@@ -1523,7 +1523,7 @@ a {
 .btn-primary:hover,
 .btn-primary:active:hover,
 .btn-primary.active:hover {
-    background-image: url("../../Content/img/btn-arrow-next-blue.png") !important;
+    background-image: url("../../../Content/img/btn-arrow-next-blue.png") !important;
 }
 
 .btn-primary.create-action {
@@ -1535,7 +1535,7 @@ a {
     background-color: #FFF;
     border-color: #0971b2;
     color: #0971b2 !important;
-    background-image: url("../../Content/img/btn-arrow-next-blue.png") !important;
+    background-image: url("../../../Content/img/btn-arrow-next-blue.png") !important;
 }
 
 @media(max-width:576px) {

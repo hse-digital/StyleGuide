@@ -280,7 +280,7 @@
     height: 24px;
     margin: -12px 0 0 0;
     vertical-align: middle;
-    background: url('../../../Content/dp-css-library-alpha-master/img/radio.png') 0 0 no-repeat;
+    background: url('../../../../Content/dp-css-library-alpha-master/img/radio.png') 0 0 no-repeat;
     background-size: 24px 48px;
     cursor: pointer;
     position: absolute;

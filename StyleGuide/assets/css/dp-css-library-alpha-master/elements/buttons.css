@@ -36,7 +36,7 @@
         }
 
 .btn-apply {
-    background: #0971b2 url("../../../Content/dp-css-library-alpha-master/img/btn-arrow-next.png") no-repeat 93% 50%;
+    background: #0971b2 url("../../../../Content/dp-css-library-alpha-master/img/btn-arrow-next.png") no-repeat 93% 50%;
     background-size: auto 20px !important;
     min-width: 180px;
     text-align: left;
@@ -51,8 +51,8 @@
 }
 
     .btn-group .btn.previous-btn {
-        background-image: url("../../../Content/dp-css-library-alpha-master/img/btn-arrow-previous-white.png");
-        background: #FFF url("../../../Content/dp-css-library-alpha-master/img/btn-arrow-previous.png") no-repeat 5% 50%;
+        background-image: url("../../../../Content/dp-css-library-alpha-master/img/btn-arrow-previous-white.png");
+        background: #FFF url("../../../../Content/dp-css-library-alpha-master/img/btn-arrow-previous.png") no-repeat 5% 50%;
         padding: 8px 25px 8px 55px;
         border: 1px solid #CCC;
         border-left: 4px solid #CCC;
@@ -66,12 +66,12 @@
             background-color: #666;
             border-color: #666;
             color: #FFF;
-            background-image: url("../../../Content/dp-css-library-alpha-master/img/btn-arrow-previous-white.png");
+            background-image: url("../../../../Content/dp-css-library-alpha-master/img/btn-arrow-previous-white.png");
         }
 
     .btn-group .btn.submit-btn,
     .btn.apply-btn {
-        background: #0971b2 url("../../../Content/dp-css-library-alpha-master/img/btn-arrow-next.png") no-repeat 95% 50%;
+        background: #0971b2 url("../../../../Content/dp-css-library-alpha-master/img/btn-arrow-next.png") no-repeat 95% 50%;
         padding: 8px 55px 8px 25px;
         border-color: #0971b2;
         color: #FFF;
@@ -84,8 +84,8 @@
 }
 
 .btn-group .btn.exit-btn {
-    background-image: url("../../../Content/dp-css-library-alpha-master/img/btn-arrow-exit-white.png");
-    background: #FFF url("../../../Content/dp-css-library-alpha-master/img/btn-arrow-exit.png") no-repeat 95% 50%  !important;
+    background-image: url("../../../../Content/dp-css-library-alpha-master/img/btn-arrow-exit-white.png");
+    background: #FFF url("../../../../Content/dp-css-library-alpha-master/img/btn-arrow-exit.png") no-repeat 95% 50%    !important;
     padding: 8px 55px 8px 25px;
     border: 1px solid #CCC;
     border-right: 4px solid #CCC;
@@ -97,7 +97,7 @@
 }
 
     .btn-group .btn.exit-btn:hover {
-        background-image: url("../../../Content/dp-css-library-alpha-master/img/btn-arrow-exit-white.png") !important;
+        background-image: url("../../../../Content/dp-css-library-alpha-master/img/btn-arrow-exit-white.png") !important;
         background-color: #666 !important;
         border-color: #666;
         color: #FFF !important;
@@ -136,7 +136,7 @@
 .btn-primary:hover,
 .btn-primary:active:hover,
 .btn-primary.active:hover {
-    background-image: url("../../../Content/dp-css-library-alpha-master/img/btn-arrow-next-blue.png") !important;
+    background-image: url("../../../../Content/dp-css-library-alpha-master/img/btn-arrow-next-blue.png") !important;
 }
 
 .btn-primary.create-action {
@@ -148,7 +148,7 @@
     background-color: #FFF;
     border-color: #0971b2;
     color: #0971b2 !important;
-    background-image: url("../../../Content/dp-css-library-alpha-master/img/btn-arrow-next-blue.png") !important;
+    background-image: url("../../../../Content/dp-css-library-alpha-master/img/btn-arrow-next-blue.png") !important;
 }
 
 @media(max-width:576px) {
