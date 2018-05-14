@@ -1693,9 +1693,9 @@ a {
     font-weight: 400;
 }
 
-    .footer-bottom .text-right dl dd a .fa {
+    .footer-bottom .text-right dl dd a .fab {
         display: inline-block;
-        color: aqua;
+        color: #fff !important;
         width: 27px;
         height: 27px;
         line-height: 27px;
@@ -1707,15 +1707,15 @@ a {
     }
 
     .footer-bottom .text-right dl dd a .fab fa-linkedin {
-        background: #0077B5;
+        background: #0077B5 !important;
     }
 
     .footer-bottom .text-right dl dd a .fab fa-twitter {
-        background: #55acee;
+        background: #55acee !important;
     }
 
     .footer-bottom .text-right dl dd a .fab fa-facebook {
-        background: #3b5998;
+        background: #3b5998 !important;
     }
 
 @media(max-width:768px) {
