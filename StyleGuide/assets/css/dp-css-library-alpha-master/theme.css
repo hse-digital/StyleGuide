@@ -1693,28 +1693,28 @@ a {
     font-weight: 400;
 }
 
-    .footer-bottom .text-right dl dd a .fab {
+    .footer-bottom .text-right dl dd a .fa {
         display: inline-block;
-        color: #fff !important;
+        color: #fff;
         width: 27px;
         height: 27px;
         line-height: 27px;
         text-align: center;
-        background: #ccc;
-        -webkit-border-radius: 2px;
+       background: #ccc;
+   -webkit-border-radius: 2px;
         -moz-border-radius: 2px;
         border-radius: 2px;
     }
 
-    .footer-bottom .text-right dl dd a .fab fa-linkedin {
+    .footer-bottom .text-right dl dd a .fa fa-linkedin {
         background: #0077B5 !important;
     }
 
-    .footer-bottom .text-right dl dd a .fab fa-twitter {
+    .footer-bottom .text-right dl dd a .fa fa-twitter {
         background: #55acee !important;
     }
 
-    .footer-bottom .text-right dl dd a .fab fa-facebook {
+    .footer-bottom .text-right dl dd a .fa fa-facebook {
         background: #3b5998 !important;
     }
 
