@@ -73,12 +73,38 @@ a {
     color: #FFF;
     font-size: 2.7rem;
     margin: 0;
+	float: left;
 }
 
     .navbar-header .logo img {
         height: 45px;
-        margin: -5px 40px 0 0;
+        margin: -5px 20px 0 0;
     }
+
+/*added by Sarah */
+
+.navbar-header .logo a {
+    color: #FFF;
+    font-size: 2.7rem;
+    padding-top: 4px;
+	float: left;
+	text-decoration: none;
+}
+
+
+.navbar-header .logo a:hover{
+   
+	text-decoration: underline;
+}
+
+.navbar-header .logo h1 a{
+  
+	float: right;
+    padding-top: 14px;
+	text-decoration: none !important;
+}
+
+
 
 .navbar-header .visible-xs-block {
     display: none !important;
